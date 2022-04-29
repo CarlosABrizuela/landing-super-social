@@ -11,3 +11,9 @@ Snaptchat.com
 mega.io
 
 politica de privacidad generada de forma gratis y online con https://www.privacypolicygenerator.info/
+
+
+
+netlify: https://bright-blini-d909ed.netlify.app/
+
+logo generado con adobe: https://www.adobe.com/express/create/logo

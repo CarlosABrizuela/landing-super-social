@@ -339,8 +339,18 @@ ul{ /*a todos los ul*/
         display: none;
     }
     /*prefooter*/
+    .prefooter{
+        flex-direction: row;
+        padding: 30px 10px;
+    }
     .prefooter article {
         margin: 20px 0;
+    }
+    .prefooter article img.logo{
+        height: 70px;
+    }
+    .prefooter article #descripcion {
+        width: 283px;
     }
     .prefooter nav a{
         float: none;
@@ -369,5 +379,20 @@ ul{ /*a todos los ul*/
     }
     #politicaMobile{
         display: none;
+    }
+}
+/*Ajustar el footer al telefono*/
+@media (max-width: 540px) {
+    /*prefooter*/
+    .prefooter{
+        flex-direction: column !important;
+        justify-content: space-around;
+        padding: 30px 10px;
+    }
+    .prefooter article {
+        margin: 20px 0;
+    }
+    .prefooter nav a{
+        float: none;
     }
 }
