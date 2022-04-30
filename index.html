@@ -79,15 +79,15 @@
         <article class="formulario">
             <h1>Formulario de Contacto</h1>
             <form onsubmit="validacion(event)" >
-                <label for="nombre">Nombre: </label><input type="text" id="nombre">
-                <label for="apellido">Apellido: </label><input type="text" id="apellido">
+                <label for="nombre">Nombre: </label><input type="text" id="nombre" maxlength="50" placeholder="Su nombre">
+                <label for="apellido">Apellido: </label><input type="text" id="apellido" maxlength="50" placeholder="Su apellido">
                 <label for="pais">País: </label>
                 <select name="pais" id="pais">
                     <option value="argentina">Argentina</option>
                     <option value="chile">Chile</option>
                     <option value="uruguay">Uruguay</option>
                 </select>
-                <label for="mensaje">Mensaje: </label><textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                <label for="mensaje">Mensaje: </label><textarea name="mensaje" id="mensaje" cols="30" rows="10" maxlength="500" placeholder="Escriba su consulta"></textarea>
                 <input type="submit" value="Envíar">
             </form>
         </article>
