@@ -14,7 +14,6 @@ ul{ /*a todos los ul*/
     list-style: none;
 }
 .contenedor > * {
-    border-radius: 4px;
     padding: 30px 50px;
     text-align: center;
     min-height: 30px;
@@ -395,4 +394,10 @@ ul{ /*a todos los ul*/
     .prefooter nav a{
         float: none;
     }
+}
+
+/*Corrección etiqueta script*/
+script {
+    padding: 0 !important;
+    min-height: 0px !important;
 }
