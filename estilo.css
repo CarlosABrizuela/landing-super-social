@@ -186,7 +186,7 @@ ul{ /*a todos los ul*/
     color:rgb(99, 99, 99);
     font-family: sans-serif;
     letter-spacing: 0.5px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 3px;
     outline: none; /* quitamos el borde por defecto cuando el control está activo */
 }
