@@ -28,9 +28,9 @@ ul{ /*a todos los ul*/
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-.headerMobile a{
+.headerMobile .btn-instalar{
     padding: 10px 25px;
-    background-color: rgb(11, 189, 170);
+    background-color: rgb(11, 165, 150);
     color: #fff;
     text-decoration: none;
     letter-spacing: 0.2px;
