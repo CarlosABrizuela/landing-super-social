@@ -16,12 +16,14 @@ function validacion(e) {
       alert("mensaje más largo de lo permitido");
     }
     /* Validar que no se ingresen numeros en campos */
-    if(nombre != /\d+/ || apellido != /\d+/){
+    if(/\d+/i.test(nombre) || /\d+/i.test(apellido)){
       retorno = false;
       alert("El nombre o apellido posee algún número");
     }
 
-    console.log(nombre+apellido+mensaje+selectPais);
-    return false; /** return retorno; para que no recargue la página al dar submit */
+    if(retorno){
+	alert(`Mensaje enviado. -> Nombre: ${nombre}, Apellido: ${apellido}, pais: ${selectPais}, Mensaje: ${mensaje}`);
+    }
+    return false;
   }
   
